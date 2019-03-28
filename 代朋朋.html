@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title></title>
+<style>
+body, h1， h2， p， h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 32px;
+    background-color: #007ae1;
+}
+
+.header-c {
+    height: 32px;
+}
+
+em {
+    width: 854px;
+    height: 32px;
+
+}
+
+em a {
+    font-size: 12px;
+    line-height: 32px;
+    height: 32px;
+    color: white;
+    font-style: normal;
+
+    margin-left: 28px;
+
+}
+
+.header-c p {
+    width: 146px;
+    height: 32px;
+    float: right;
+    margin: 0;
+}
+
+.header-c p a {
+    width: 145px;
+    font-size: 12px;
+    line-height: 32px;
+    height: 32px;
+    color: white;
+}
+
+.nav {
+    height: 100px;
+    clear: both;
+}
+
+.navi {
+    float: left;
+    width: 280px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.nav img {
+    height: 57px;
+    width: 168px;
+    vertical-align: middle;
+}
+
+.nav ul {
+    height: 100px;
+    width: 680px;
+    float: right;
+    margin: 0;
+}
+
+.nav ul li {
+    height: 30px;
+    width: 100px;
+    padding-top: 35px;
+    float: left;
+}
+
+.nav ul li a:hover {
+
+    color: #007ae1;
+    border-bottom: 2px solid #007ae1;
+}
+
+.nav ul li a {
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 530px;
+    background-image: url("img/bg_02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-t {
+    height: 530px;
+    width: 1000px;
+    position: relative;
+}
+
+.image-f {
+    width: 460px;
+    height: 290px;
+    position: absolute;
+    right: 70px;
+    top: 130px;
+
+}
+
+.image-f h1 {
+    color: #ff4d4d;
+    font-size: 70px;
+}
+
+.image-f h1 span {
+    font-size: 30px;
+}
+
+.image-f p {
+    color: #d8d8d8;
+    font-size: 12px;
+    text-indent: 45px;
+    font-family: "宋体";
+}
+
+.image-b {
+    position: absolute;
+    left: 300px;
+    bottom: 18px;
+}
+
+.image-b p {
+    width: 62px;
+    height: 5px;
+    background-color: #d8d8d8;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.image-b p:hover {
+    background-color: red;
+}
+
+.image2 {
+    width: 100%;
+    height: 500px;
+    background-image: url("img/bg_03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+.image2-c {
+    height: 530px;
+    width: 1000px;
+
+}
+
+.image2-c h3 {
+    font-weight: normal;
+    margin: 0px;
+    display: block;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+.image2-c h3 span {
+    font-size: 30px;
+}
+
+.image2-b h2 {
+    font-weight: normal;
+    height: 30px;
+    margin: 0px auto;
+
+    width: 290px;
+}
+
+.image2-b p {
+    text-indent: 30px;
+    font-size: 22px;
+    margin: 0;
+    padding: 8px 54px 0px 52px;
+}
+
+.image3 {
+    width: 100%;
+    height: 500px;
+    background-image: url("img/bg_04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+.image3-c {
+    height: 530px;
+    width: 1000px;
+
+}
+
+.image3-c h3 {
+    font-weight: normal;
+    margin: 0px;
+    display: block;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+.image3-c h3 span {
+    font-size: 30px;
+}
+
+.image3-c ul {
+    height: 182px;
+}
+
+.image3-c ul li {
+    height: 182px;
+    width: 172px;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.image3-c ul li a {
+    height: 100px;
+    width: 100px;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 26px 38px;
+}
+
+.image3-c ul li img {
+    margin-top: 25px;
+
+}
+
+.image3-c ul .li1 {
+    background-color: #4db5f7;
+
+}
+
+.image3-c ul .li2 {
+    background-color: #f7b449;
+}
+
+.image3-c ul .li3 {
+    background-color: #75c273;
+}
+
+.image3-c ul .li4 {
+    background-color: #ff5253;
+}
+
+.image3-c ul .li5 {
+    background-color: #7265ab;
+}
+
+.image3-b {
+    background-color: #ffffff;
+    height: 170px;
+    margin-top: 58px;
+    color: #585858;
+    text-indent: 30px;
+    position: relative;
+}
+
+.image3-b h1 {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.image3-b span {
+    display: block;
+    width: 700px;
+    margin-left: 30px;
+}
+
+.image3-b em {
+    width: 192px;
+    height: 52px;
+    background-color: #328ad7;
+    position: absolute;
+    bottom: 36px;
+    right: 40px;
+    font-style: normal;
+    display: block;
+    line-height: 52px;
+    color: #ffffff;
+}
+
+.image4 {
+    width: 100%;
+    height: 728px;
+    background-image: url("img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+}
+
+.image4-c {
+    height: 728px;
+    width: 1000px;
+
+}
+
+.image4-c h3 {
+    font-weight: normal;
+    margin: 0px;
+    display: block;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+.image4-c h3 span {
+    font-size: 30px;
+}
+
+.image4-c ul li {
+    float: left;
+    width: 308px;
+    height: 214px;
+    display: block;
+    margin-right: 10px;
+    margin-top: 75px;
+}
+
+.image4-c ul:last-child {
+    margin-right: 0px;
+
+}
+
+.image4-c ul li p {
+    text-align: center;
+}
+
+.image5 {
+    width: 100%;
+    height: 514px;
+    background-image: url("img/img1_12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    clear: both;
+
+}
+
+.image5-c {
+    height: 514px;
+    width: 1000px;
+
+}
+
+.image5-c h3 {
+    font-weight: normal;
+    margin: 0px;
+    display: block;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+.image5-c h3 span {
+    font-size: 30px;
+}
+
+.image5-c ul {
+    width: 460px;
+    float: left;
+}
+
+.image5-c ul strong {
+    font-size: 30px;
+
+}
+
+.image5-c ul span {
+    float: right;
+
+}
+
+.image5-c ul li {
+    margin-top: 10px;
+}
+
+.partner {
+    height: 222px;
+}
+
+.partner-b ul {
+    border: 1px solid black;
+    width: 1000px;
+    height: 72px;
+    border-radius: 20px;
+    line-height: 72px;
+}
+
+.partner-b li {
+    float: left;
+    margin-right: 45px;
+}
+
+.partner span {
+    font-size: 24px;
+    color: #027cc5;
+}
+
+.partner-t li {
+    list-style-image: url("img/j3.jpg")
+}
+
+.footer {
+    width: 100%;
+    height: 110px;
+    background-color: #0a98e0;
+}
+
+.footer-c {
+    height: 110px;
+    padding-top: 15px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+    <div class="header-c w1000 ">
+        <em>
+            <a href="javascript">
+                您好，欢迎访问“无比网络技术有限公司”网站！
+
+        </em>
+
+
+        <p>
+            <a href="javascript">
+                <spen>设为首页</spen>
+            </a>
+            <a href="javascript">
+                <spen>收藏本站</spen>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="nav w1000">
+    <div class="navi">
+        <img src="img/log.jpg" alt=""/>
+    </div>
+    <ul>
+        <li><a href="">网站首页</a></li>
+        <li><a href="">公司简介</a></li>
+        <li><a href="">产品及服务</a></li>
+        <li><a href="">案例展示</a></li>
+        <li><a href="">新闻动态</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<div class="image ">
+    <div class="image-t w1000">
+        <div class="image-f">
+            <h1>"<span>我们的</span>团队"</h1>
+
+            <p>热爱生活和精力旺盛的团队</p>
+
+            <p>敢于承担责任和接受挑战的团队</p>
+
+            <p>充满机遇和希望的团队</p>
+
+            <p>互联网联动世界，互联网绘画人生</p>
+
+            <p>互联网让世界变的平坦</p>
+
+            <p>互联网让人们的生活更精彩</p>
+        </div>
+        <div class="image-b">
+            <p></p>
+
+            <p></p>
+
+            <p></p>
+        </div>
+    </div>
+</div>
+<div class="image2">
+    <div class="image2-c w1000">
+
+        <h3><span>关于我们</span> About us
+            <img src=" img/icon.png;" alt=""/>
+
+        </h3>
+
+        <div class="image2-b">
+            <h2>武汉无比网络科技有限公司</h2>
+
+            <p>武汉无比网络科技有限公司成立于2013年，是一批专注于网络技术研发及解决网络营销方案的优质团队，我们具有丰富的
+                网络项目实战经验，精通于各行业类网站及系统项目的合计与开发。</p>
+            　　<p>
+            我们致力于为客户提供基于互联网的高品质技术支持与各类网络业务服务，包括网站开发、电脑及手机端在线软件系统研发、微信公众平台开发、商城系统开发、门户网站开发、网站SEO优化、域名注册、服务器/虚拟主机租售、400电话、短讯群发、短信接口、企业邮箱等。
+            无比网络拥有无与伦比的决心，无与伦比的服务，无与伦比的技术，无与伦比的战略团队。</p>
+            　　<p>我们秉承“一切为客户考虑”的服务理念，坚持做到让客户没有后顾之忧，我们用心提供最优质的服务及技术支持，只为换来您的无比满意。
+            我们真诚期待与您的合作，我们将共同营造一个美好的互联网时代！</p>
+        </div>
+    </div>
+</div>
+<div class="image3">
+
+    <div class="image3-c w1000">
+
+        <h3><span>服务范围</span> Service area
+            <img src=" img/icon.png;" alt=""/>
+
+        </h3>
+        <ul>
+            <li class="li1">
+                <a href=""><img src="img/b-1.png" alt=""/></a>
+
+                <p>网站建设开发</p>
+            <li class="li2">
+                <a href=""><img src="img/b2.png" alt=""/></a>
+
+                <p>在线OA系统开发</p>
+            </li>
+            <li class="li3">
+                <a href=""><img src="img/b3.png" alt=""/></a>
+
+                <p>微信平台开发</p>
+            </li>
+            <li class="li4">
+                <a href=""><img src="img/b4.png" alt=""/></a>
+
+                <p>云服务&域名</p>
+            </li>
+            <li class="li5">
+                <a href=""><img src="img/b5.png" alt=""/></a>
+
+                <p>优化&推广</p>
+            </li>
+        </ul>
+        <div class="image3-b">
+            <h1>优化&推广</h1>
+        <span>拥有网站后，最重要的便是优化和推广，在这方面，我们拥有非常优秀的战略伙伴，帮您完成
+网站优化与推广这项能为您带来无限商机的重要服务——推广，创造商机！</span>
+            <em><img src="img/b6.png" alt=""/>详细介绍</em>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="image4">
+    <div class="image4-c w1000">
+
+        <h3><span>服务范围</span> Service area
+            <img src=" img/icon.png;" alt=""/>
+
+        </h3>
+        <ul>
+            <li>
+                <img src="img/g1.jpg" alt=""/>
+
+                <p>爱达荷大学</p>
+            </li>
+            <li>
+                <img src="img/g2.jpg" alt=""/>
+
+                <p>冠军堡犬舍</p>
+            </li>
+            <li>
+                <img src="img/g3.jpg" alt=""/>
+
+                <p>恒大木业</p>
+            </li>
+
+        </ul>
+        <ul>
+            <li>
+                <img src="img/g1.jpg" alt=""/>
+
+                <p>爱达荷大学</p>
+            </li>
+            <li>
+                <img src="img/g2.jpg" alt=""/>
+
+                <p>冠军堡犬舍</p>
+            </li>
+            <li>
+                <img src="img/g3.jpg" alt=""/>
+
+                <p>恒大木业</p>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <div class="image5">
+        <div class="image5-c w1000">
+
+            <h3><span>新闻中心</span> News center
+                <img src=" img/icon.png;" alt=""/>
+
+            </h3>
+            <ul>
+                <li><strong>行业资讯</strong>Dynamic news<span>more +</span></li>
+                <li style="height: 10px;"></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+                <li>为何程序员都爱熬夜？为什么喜欢夜间工作？ <span>[2015/03/12]</span></li>
+            </ul>
+            <ul>
+                <li><strong>最新动态</strong> Industry information<span>more +</span></li>
+                <li style="height: 10px;"></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+                <li>无比网络2015年“清明节”放假通知 <span>[2015/03/12]</span></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="partner w1000">
+        <ul class="partner-t">
+            <li><span>合作伙伴</span></li>
+        </ul>
+
+        <div class="partner-b">
+            <ul>
+                <li>
+                    <img src="img/j2.jpg" alt=""/>
+                </li>
+                <li>
+                    <img src="img/h3.png" alt=""/>
+                </li>
+                <li>
+                    <img src="img/h4.png" alt=""/>
+                </li>
+                <li>
+                    <img src="img/h2.png" alt=""/>
+                </li>
+                <li>
+                    <img src="img/h1.png" alt=""/>
+                </li>
+                <li>
+                    <img src="img/j1.jpg" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-c w1000">
+            <p>版权所有 Copyright ©2013-2014 武汉无比网络科技有限公司 wubinet.com All Rights Reserved 网站备案号：鄂ICP备14000102号</p>
+
+            <p>咨询热线：400-996-9927 E-mail：wubinet@qq.com 地址：武汉市武昌区中南路10号鹏程时代1216室</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
